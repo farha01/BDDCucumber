@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.377" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="UKBA Automation" name="Verify user needs UK visa" time="13.501">
+<system-out><![CDATA[
+Given I am on UKBA website..................................................passed
+And I choose country as "Ireland"...........................................passed
+And I click on continue button..............................................passed
+Then I should see the following message "You do not need a visa to come to the UK".passed
+]]></system-out>
+</testcase>
+</testsuite>
