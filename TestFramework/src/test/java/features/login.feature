@@ -7,7 +7,7 @@ Feature: Login Functionality
     Then User should close the browser
 
   @regression
-  Scenario: Successful Login2
+  Scenario: Successful Login3
     Given User is on the login page
     When User enters valid credentials
     Then User should be redirected to the dashboard
