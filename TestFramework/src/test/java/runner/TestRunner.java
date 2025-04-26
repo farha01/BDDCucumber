@@ -8,7 +8,7 @@ import org.testng.annotations.DataProvider;
         features = "src/test/java/features",
         glue = "stepDefinitions",
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        tags = "@smoke or @regression", 
+        tags = "@smoke or @regression", //smoke and regression test cases
         monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
